@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            float:left;
+            margin-left: 200px;
+            padding-top: 20px;
+        }
+        .four{
+            float:left;
+            margin-left: 50px;
+            padding-top: 20px;
+        }
+        .three{
+            float:left;
+            margin-left: 50px;
+            padding-top: 20px;
+        }
+        .two{
+            float:left;
+            margin-left: 200px;
+            padding-top: 20px;
+        }
+        .five{
+            float:left;
+            margin-left: 50px;
+            padding-top: 20px;
+        }.six{
+            float:left;
+            margin-left: 50px;
+            padding-top: 20px;
+        }
+        .seven{
+            float:left;
+            margin-left: 50px;
+            margin-right: 200px;
+            padding-top: 20px;
+        }
+        .eight{
+            margin-left: 50px;
+            margin-right: 100px;
+            padding-top: 20px;
+        }
+        .div1{
+            border: 4px solid rgb(4, 218, 125);
+            border-bottom: none;
+            border-left: none;
+            border-right:none;
+            width:2000px;
+        }
+        .heading{
+            margin-left: 500px;
+            width: 350px;
+            color: white;
+            font: bold;
+            font-size: 32px;
+            /* background-color: black; */
+            background-color: transparent ;
+            font-display: 500px;
+        }
+        .para1{
+            margin-left: 500px;
+            width:500px;
+        }
+        .B{
+            padding:10px;
+            border-radius: 20px;
+            margin-left: 500px;
+            border: 2px solid white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .div2{
+            background-image: url(./slider-image1.jpg);
+            height: 700px;
+            width:2000px;
+            background-repeat: no-repeat;
+        }
+        .div3{
+            display: flex;
+            gap: 30px;
+        }
+        .b1{
+            padding:10px;
+            border-radius: 50%;
+            background-color: rgb(14, 14, 178);
+            color: white;
+            font-size:larger;
+        }
+        .b2{
+            padding:10px;
+            border-radius: 50%;
+            background-color: rgb(14, 14, 178);
+            color: white;
+            font-size:larger;
+        }
+        .b3{
+            padding:10px;
+            border-radius: 50%;
+            background-color: rgb(14, 14, 178);
+            color: white;
+            font-size:larger;
+        }
+        .div31{
+            border: 2px solid rgb(186, 182, 182);
+            width:300px;
+            height: 300px;
+            margin-left: 200px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-left: 30px;
+            padding-right: 30px;   
+        }
+        .div32{
+            border: 2px solid rgb(186, 182, 182);
+            width:300px;
+            height: 300px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .div33{
+            border: 2px solid rgb(186, 182, 182);
+            width:300px;
+            height: 300px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            padding-left: 30px;
+            padding-right: 30px;
+            
+        }
+        .div4{
+            margin-left: 100PX;
+            width:600px;
+        }
+        .div41{
+            margin-left: 20px;
+        }
+        .div42{
+            float:left;
+            margin-left: 850px;
+            margin-top: -400px;
+            border: 2px solid black;
+            padding:50px;
+            border-radius: 50%;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: black;
+            color: white;
+            width:250px;
+            height: 300px;
+        }
+        .get{
+            padding:10px;
+            border-radius: 20px;
+            width:120px;
+        }
+        .icon1{
+            width:40px;
+            height: 40px;
+            margin-top: 60px;
+        }
+        .icon2{
+            width:40px;
+            height: 40px;
+        }
+        .icon3{
+            width:40px;
+            height: 40px;
+        }.pt,.ic,.f3{
+            margin-left: 60px;
+            margin-top: -50px;
+        }
+        .p1,.p2,.p3{
+            margin-left: 60px;
+        }
+        .img1div1{
+            width:180px;
+            height:200px;
+            margin-left:150px
+            
+        }
+        .img2div1{
+            width:180px;
+            height:200px;
+            margin-left: 250px;
+            margin-top: -100px;
+        }
+        .img3div1{
+            width:180px;
+            height:200px;
+            margin-left: 225px;
+            margin-top: -181px;
+        }
+        .img4div1{
+            width:180px;
+            height:200px;
+            margin-left: 215px;
+            margin-top: -195px;
+        }
+        .images{
+            display: grid;
+            
+        }
+        .img1div3{
+            margin-left: 160px;
+            width: 100px;
+        }
+        .fb,.twitter,.insta{
+            width: 20px;
+            height: 20px;
+            margin-left: 150px;
+        }
+        .fb{
+            float: left;
+            margin-left: 170px;
+        }
+        .twitter{
+          float: left;
+          margin-left: 210px;
+          margin-top: -20px;
+        }
+        .insta{
+            float:left;
+            margin-left: 250px;
+            margin-top: -20px;
+            width:25px ;
+            height: 25px;
+        } 
+        .google{
+            width:15px;
+            height: 15px;
+        }
+        .instagram{
+            width:25px;
+            height: 25px;   
+            margin-left: 300px;
+            margin-top: -600px;
+        }
+        .tw,.msg,.in{
+            width: 20px;
+            height: 20px;
+            margin-left: 200px;
+        }
+        .t,.goo,.Be{
+            width: 20px;
+            height: 20px;
+        }
+        .google{
+            margin-left: 280px;
+            margin-top: -1000px;
+        }
+        .c1,.c2,.c3{
+            width: 300px;
+            height: 180px;
+        }
+        .mark{
+            width: 25px;
+            float: left;
+            margin-right: 20px;
+        }
+        .usd{
+            background-color: rgb(4, 218, 125);
+            margin-left: 200px;
+            margin-top: -60px;
+            height: 30px;
+            width: 80px;
+
+        }
+        .business{
+            margin-left: 350px;
+            margin-top: -370px;
+        }
+        .jess{
+            width: 25px;
+            float: left;
+            margin-right: 20px;
+        }
+        .free{
+            background-color:rgb(246, 132, 246);
+            margin-left: 200px;
+            margin-top: -60px;
+            height: 30px;
+            width: 80px;
+
+        }
+        .social{
+            margin-left: 700px;
+            margin-top: -370px; 
+        }
+        .one:hover{
+            background-color: rgb(128, 228, 128);
+        }
+        .two:hover{
+            background-color:rgb(128, 228, 128);
+        }
+        .three:hover{
+            background-color:rgb(128, 228, 128);
+        }
+        .four:hover{
+            background-color: rgb(128, 228, 128);
+        }
+        .five:hover{
+            background-color:rgb(128, 228, 128);
+        }
+        .six:hover{
+            background-color: rgb(128, 228, 128);
+        }
+        .seven:hover{
+            background-color: rgb(128, 228, 128);
+        }
+        .eight:hover{
+            background-color: rgb(128, 228, 128);
+        }
+        @media  screen and (min-width : 300px){
+            .container{
+                display: flex;
+                width: 100%; 
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+        @media  screen and (min-width : 370px){
+            .container{
+                display: flex;
+                width: 100%; 
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+        @media  screen and (min-width : 425px){
+            .container{
+                display: flex;
+                width: 100%; 
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+        @media  screen and (min-width : 768px){
+            .container{
+                display: flex;
+                width: 100%; 
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+        @media  screen and (min-width : 1024px){
+            .container{
+                display: flex;
+                width: 100%; 
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <nav class="one">Known</nav>
+        <nav class="two">Home</nav>
+        <nav class="three">About</nav>
+        <nav class="four">Our Teachers</nav>
+        <nav class="five">Courses</nav>
+        <nav class="six">Reviews</nav>
+        <nav class="seven">Contact</nav>
+        <nav class="eight">+6522441100</nav>
+    </div>
+    <br><br>
+    <div class="div2"><br><br><br><br><br><br><br><br>
+        <h1 class="heading">Distance Learning <br>Education Center</h1>
+        <p class="para1">Our online courses are designed to fit in your industry supporting all-round with latest technogies.</p>
+        <br>
+        <button class="B">Discover More</button>
+    </div><br><br><br><br><br><br><br><br>
+    <div class="div3">
+        <div class="div31">
+            <button class="b1">01</button>
+            <h3 class="tc">Trending Courses</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae maiores, rem nulla et eligendi eum.</p>
+        </div>
+        <div class="div32">
+            <button class="b2">02</button>
+            <h3 class="bl">Books & Library</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nihil delectus numquam velit.</p>
+        </div>
+        <div class="div33">
+            <button class="b3">03</button>
+            <h3 class="ct">Certified Teachers</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti accusamus saepe iure praesentium.</p>
+        </div>
+    </div><br><br><br><br><br><br>
+    <div class="div4">
+        <div class="div41">
+            <h2 class="start">Start your jourmey to a better life with<br>online practical courses</h2>
+            <img src="./WhatsApp Image 1.jpg" alt="" class="icon1">
+            <h3 class="pt">Professional Traniers</h3>
+            <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus porro, velit minima alias iure</p><br>
+            <img src="./WhatsApp Image 3.jpg" alt="" class="icon2">
+            <h3 class="ic">International Certifications</h3>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed totam porro, velit minima alias iure modi illum?</p>
+            <img src="./WhatsApp Image 2.jpg" alt="" class="icon3">
+            <h3 class="f3">Free for 3 months</h3>
+            <p class="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem iusto aperiam illum possimus, exercitationem.</p>
+        </div>
+        <div class="div42">
+            <center><h3 class="signup">Signup today</h3></center>
+            <form action="">
+                <label for="name">Full Name</label><br>
+                <label for="-"><hr></label><br><br>
+                <label for="email">Your email address</label><br>
+                <label for="--"><hr></label><br><br>
+                <label for="password">Your Password</label>
+                <label for="---"><hr></label><br><br>
+                <center><button class="get">Get started</button></center>
+            </form>
+        </div>
+   </div><br><br><br><br><br><br><br>
+   <div class="div5">
+    <center>
+       <h3 class="teachers">Teachers</h3>
+       <p>Meet Professional Trainers</p>
+        <br></center>
+        <div class="images1">
+            <div class="img1div1">
+                <img src="./author-image1.jpg" alt="" class="img1div1">
+                <br><br>
+                <div class="img1div3">Mark Wilson</div>
+                <p style="margin-left: 160px;width: 150px;">I love Teaching</p>
+                <br>
+                <!-- <div class="FTI">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.41.57 AM.jpeg" alt="" class="fb">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.42.25 AM.jpeg" alt="" class="twitter">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.43.48 AM.jpeg" alt="" class="insta">
+                </div> -->
+            </div>
+            <div class="img2div1"> 
+                <img src="./author-image2.jpg" alt="" class="img2div1">
+                <br><br>
+                <div class="img2div3" style="margin-left: 265px;">Catherine</div>
+                <p style="margin-left: 260px;width: 150px;">Education is the key!</p>
+                <br>
+                <!-- <div class="GI">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.45.33 AM.jpeg" alt="" class="google">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.43.48 AM.jpeg" alt="" class="instagram">
+            </div> -->
+            <div class="img3div1">
+                <br><br><br>
+                <img src="./author-image3.jpg" alt="" class="img3div1">
+                <br><br>
+                <div class="img3div3" style="margin-left: 240px;">JessieCa</div>
+                <p style="margin-left: 240px;width: 150px;">I like Online Courses</p>
+                <br>
+                <!-- <div class="TWI">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.42.25 AM.jpeg" alt="" class="tw">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.47.26 AM.jpeg" alt="" class="msg">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.42.43 AM.jpeg" alt="" class="in">
+            </div> -->
+            <div class="img4div1">
+                <br><br><br><br>
+                <img src="./author-image4.jpg" alt="" class="img4div1">
+                <br><br>
+                <div class="img4div3" style="margin-left: 240px;width: 100px;">Andrew Berti</div>
+                <p style="margin-left: 240px;width: 150px;">Learning is fun</p>
+                <br>
+                <!-- <div class="TG">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.42.25 AM.jpeg" alt="" class="t">
+                    <img src="./WhatsApp Image 2024-08-13 at 12.47.26 AM.jpeg" alt="" class="goo">
+                    <p class="be">Be</p>
+            </div> -->
+        </div>
+   </div>
+   <br><br><br><br>
+   <div>
+    <h2 style="margin-left: 400px;width: 200px;">Popular Courses</h2>
+    <p style="margin-left: 330px;width: 400px;">Upgrade your skills with newest courses</p>
+   </div>
+   <br><br>
+   <div class="summer">
+    <img src="./courses-image4.jpg" alt="" class="c1">
+    <h3>Summer Kids</h3>
+    <p style="width: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <img src="./author-image1.jpg" alt="" class="mark">
+    <h4>Mark Wilson</h4>
+    <button class="usd">USD 45</button>
+   </div>
+   <div class="business">
+    <img src="./courses-image5.jpg" alt="" class="c1">
+    <h3 style="width: 400px;">Business & Mnanagement</h3>
+    <p style="width: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <img src="./author-image2.jpg" alt="" class="jess">
+    <h4>Jessica</h4>
+    <button class="free">Free</button>
+   </div>
+   <div class="social">
+    <img src="./courses-image1.jpg" alt="" class="c1">
+    <h3 style="width: 400px;">Business & Mnanagement</h3>
+    <p style="width: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <img src="./author-image1.jpg" alt="" class="jess">
+    <h4>Mark Wilson</h4>
+    <button class="usd">USD 25</button>
+   </div>
+   <br><br><br><br>
+   <div>
+    <h2 style="margin-left: 400px;width: 200px;">Student Reviews</h2>
+    <p style="margin-left: 410px;width: 200px;">from around the world</p>
+   </div>
+   <br><br><br>
+   <div>
+      <img src="./tst-image4.jpg" alt="" style="height: 70px;border-radius: 50%;">
+      <h3 style="margin-left: 80px;margin-top: -60px;">Andrio</h3>
+      <p style="margin-left: 80px;margin-top: -15px;">Web Developer</p>
+      <p style="width: 300px;">Nam eget mi eu ante faucibus viverra nec sed magna.Vivamus viverra sapien ex,elementum varius ex sagittis vel.</p>
+      *️⃣*️⃣*️⃣*️⃣
+   </div>
+   <div style="margin-left: 400px;margin-top: -170px;">
+      <img src="./tst-image1.jpg" alt="" style="height: 70px;border-radius: 50%;">
+      <h3 style="margin-left: 80px;margin-top: -60px;">Jackson</h3>
+      <p style="margin-left: 80px;margin-top: -15px;">Shopify Developer</p>
+      <p style="width: 300px;">You really do help young creative minds to get quality education and professional job search assistance.
+        i'd recommend it to everyone </p>
+        *️⃣*️⃣*️⃣*️⃣*️⃣
+   </div>
+   <div  style="margin-left: 800px;margin-top: -200px;">
+      <img src="./tst-image2.jpg" alt="" style="height: 70px;border-radius: 50%;">
+      <h3 style="margin-left: 80px;margin-top: -60px;">Camily</h3>
+      <p style="margin-left: 80px;margin-top: -15px;">Marketing Manager</p>
+      <p style="width: 300px;">Trying something new is exciting!Thanks for the amazing 
+        law course and the great teacher who was able to make it intresting 
+      </p>
+      *️⃣*️⃣*️⃣
+   </div>
+   <br><br><br><br><br><br>
+<div style="background-color: blue;width: 1200px;height:600px;" class="blue">
+    <br><br>
+    <h3 style="margin-left: 30px;color: white;">Contact us</h3>
+    <p style="margin-left: 30px; color: white;">we love conversations,let us talk!</p>
+    <img src="./contact-image.jpg" alt="" style="height: 300px;height: 300px;margin-left: 700px;margin-top: 100px;">
+    <form action="" style="margin-top: -400px;">
+     <input type="text" placeholder="Enter Full name" style="padding: 10px 400px 10px 4px;  margin-left: 30px;">
+     <br><br>
+     <input type="text" placeholder="Enter email address" style="padding: 10px 400px 10px 4px; margin-left: 30px;">
+     <br><br>
+     <input type="text" placeholder="Tell us about your message" style="padding: 10px 400px 200px 4px; margin-left: 30px;">
+     <br><br>
+     <button style="padding: 15px 15px 15px 15px; margin-left: 30px; border-radius: 50px;">Send Message</button>
+    </form>
+</div>
+<div  style="background-color: black;width: 1200px;height: 300px; ">
+    <div style="float: left;">
+        <br>
+        <h3 style="color: white;margin-left: 50px;width: 100px;">Headquarter</h3>
+        <p style="color: white;margin-left: 50px;width: 200px;">1800 dapibus a tortor pretium,integer nisl dui,ABC 12000 <br> Copyright @ 2018 Company Name <br> Design: Template Mo</p>
+    </div>
+    <br>
+    <div style="margin-left: 350px;">
+        <h3 style="color: white;margin-left: 43px;">Contact Info</h3>
+        <p style="color: white;margin-left: 50px;">+65 2244 1100, +66 1800 1100 <br> hello@youremail.co</p>
+        <h3 style="color: white;margin-left: 50px;">Quick Links</h3>
+        <p style="color: white;margin-left: 50px;">Career Investor Terms&Conditions <br> Refund Policy</p>
+    </div>
+    <br>
+    <div style="margin-left: 800px;margin-top: -230px;">
+        <h3 style="color: white;">Newsletter Signup</h3>
+        <label for="" style="color: white;">Enter your email</label>
+        <label for="" style="color: white;"><br></label>
+        <br><br>
+        <button style="padding: 15px 35px 15px 35px ;border-radius: 40px;">Send me</button>
+        <p style="color: white;">*Please note-we do not spam your email.</p>
+    </div>
+</div>    
+</body>
+</html>
